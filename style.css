@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url('images/Untitled design.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+}
+
+ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #2F4858 ;
+    letter-spacing: 2px;
+}
+
+button{
+    color: #ffffff;
+    margin:20px ;
+    padding:10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(3, 3, 97) ;       /*#52eb4d; */                 
+    font-size: medium;
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+main .right-sec img{
+    width: 700px;
+    height: 500px;
+}
+
+.left-sec h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color:#2F4858;
+    margin-top: 120px;
+}
+
+.left-sec h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 15px 0;
+   
+}
+
+.left-sec p{
+    color:#2F4858;
+}
+.left-sec button{
+    margin-left: 70px;
+}
